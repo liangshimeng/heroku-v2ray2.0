@@ -4,32 +4,32 @@
     "keywords": ["v2ray2.0"],
     "env": {
         "AA": {
-            "description": "初阶用户只需修改以下AUUID点击页面最后的Deploy app按钮即可开始部署",
-            "value": "如出现错误，请检查参数格式或多尝试几次。使用自定义参数请务必先充分理解其含义"
+            "description": "初级用户留空即可",
+            "value": "默认"
         },
         "AUUID": {
-            "description": "UUID充当各个配置的路径和账号密码，建议修改和妥善保存,可生成UUID的网站: https://www.uuidgenerator.net",
+            "description": "UUID",
             "value": "a8df97d4-95ca-419c-986d-2755064de48b"
         },
         "CADDYIndexPage": {
-            "description": "自定义CADDY部署完成后点击View的显示页面，参考：https://github.com/Lbingyi/HerokuXray/blob/master/etc/CADDYIndexPage.md",
-            "value": "https://github.com/AYJCSGM/mikutap/archive/master.zip"
+            "description": "CADDY显示页面",
+            "value": "https://github.com/fangaso/html-temple-start/archive/master.zip"
         },
         "CONFIGCADDY": {
             "description": "自定义网络地址读取配置运行CADDY，不熟悉CADDY配置的请勿修改",
-            "value": "https://raw.githubusercontent.com/fangaso/heroku-v2ray2.0/main/etc/Caddyfile"
+            "value": "https://raw.githubusercontent.com/fangaso/heroku-v2ray2.0/master/etc/Caddyfile"
         },
         "CONFIGXRAY": {
             "description": "自定义网络地址读取配置运行xray，不熟悉xray配置的请勿修改",
-            "value": "https://raw.githubusercontent.com/fangaso/heroku-v2ray2.0/main/etc/xray.json"
+            "value": "https://raw.githubusercontent.com/fangaso/heroku-v2ray2.0/master/etc/xray.json"
         },
         "ParameterSSENCYPT": {
-            "description": "SS加密方式，查看支持协议: https://www.v2fly.org/config/protocols/shadowsocks.html",
-            "value": "chacha20-ietf-poly1305"
+            "description": "加密方式",
+            "value": "aes-256-gcm"
         },
         "StoreFiles": {
             "description": "自定义网络地址读取存储文件列表",
-            "value": "https://raw.githubusercontent.com/fangaso/heroku-v2ray2.0/main/etc/StoreFiles"
+            "value": "https://raw.githubusercontent.com/fangaso/heroku-v2ray2.0/master/etc/StoreFiles"
         }
     },
     "website": "https://aicn.site/",
